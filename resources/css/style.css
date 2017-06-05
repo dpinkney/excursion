@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     color: white;
+    background-color: black;
 }
 
 h1 {
@@ -8,11 +9,25 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
 a {
-    font-color: Aquamarine;
+    color: Aquamarine;
     font-size: 16px;
 }
 
 .centered {
     text-align: center;
+}
+
+.description {
+    font-size: 21px;
+    color: Gray;
+}
+
+.footer {
+    text-align: right;
 }
